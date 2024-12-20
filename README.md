@@ -7,6 +7,7 @@
 ```python
 '''
   oled = SSD1306(...)
+  badapp.hex文件由video2hex.py生成
 '''
 def ReadFile(file_name):
     with open(file_name, 'rb') as file:
